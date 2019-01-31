@@ -9,6 +9,9 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
 
+  def activate
+  end
+
   private
 
     def set_student
